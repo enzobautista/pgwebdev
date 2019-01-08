@@ -1,0 +1,462 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body{
+ 	overflow-x:hidden;
+ 	margin: 0; 
+ 	padding: 0;
+ }
+ .s0{
+	margin-top: -10px;
+	height:50vh;
+	width: 100vw;
+	background-color: #b2b2b2;
+	position: relative;
+	z-index: 9;
+}
+.s1{
+	margin-top: -53.9vh;
+	height:110vh;
+	width: 100vw;
+	background-color: transparent;
+	background-image: url('/assets/landing.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 14;
+}
+.s2{
+	margin-top: -23vh;
+	height:190vh;
+	width: 101vw;
+	background-color: #b2b2b2;
+	background-image: url('/assets/me.png');
+	background-size: auto 110vh;
+	background-repeat: no-repeat;
+
+	position: relative;
+	background-position: right bottom;
+	z-index: 10;
+	padding-top: 30vh;
+}
+.s2-cont{
+	padding-top: 50px;
+
+}
+.s-title{
+ font-family: 'Roboto';
+ font-size: 4em;
+ font-weight: 500;
+ letter-spacing: 14px;
+ color: #252525;
+ margin-left: 11px;
+}
+.sub-text{
+ font-family: 'Roboto';
+ font-size: 2.1em;
+ font-weight: 300;
+}
+.brc{
+   display: block;
+   margin: 10px 0;
+   line-height: 0px;
+   content: " ";
+}
+.br12{
+   display: block;
+   margin: 15px 0;
+   line-height: 0px;
+   content: " ";
+}
+.s-title1{
+ font-family: 'Roboto';
+ font-size: 2.8em;
+ font-weight: 500;
+ letter-spacing: 4px;
+ color:#363636;
+}
+.s-q{
+ font-family: 'Roboto';
+ font-size: 1.4em;
+ font-weight: 500;
+ letter-spacing: 2px;
+ color:#363636;
+text-align: justify;
+}
+.s-div{
+	width:34vw;
+	margin-left: 10vw;
+}
+.s-q1{
+ font-family: 'Roboto';
+ font-size: 1.2em;
+ font-weight: 300;
+ letter-spacing: 2px;
+ color:#363636;
+ text-align: justify;
+}
+.brd{
+   display: block;
+   margin: 10px 0;
+   line-height: 0px;
+   content: " ";
+}
+.spanc{
+	margin-left: 28px;
+}
+#s3{
+	height:110vh;
+	width: 100vw;
+	background-color: transparent;
+	
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 14;
+}
+.s-row{
+	height: 30vh;
+}
+.s-q2{
+ font-family: 'Roboto';
+ font-size: 1.2em;
+ font-weight: 300;
+ letter-spacing: 2px;
+ color:white;
+ text-align: center;
+}
+.s4{
+	height:127vh;
+	background-color: #192F3A;
+}
+.s5{
+	height:38vh;
+	background-image: url('/assets/mission.jpg');
+	background-size: cover;
+}
+.s-q3{
+ font-family: 'Roboto';
+ font-size: 1.2em;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color:white;
+ text-align: center;
+ margin-top: -11.7vh;
+}
+.s6{
+	min-height:245vh;
+	background-color: #989692;
+	position: relative;
+}
+.s-q4{
+ font-family: 'Roboto';
+ font-size: 1.4em;
+ font-weight: 300;
+ letter-spacing: 2px;
+ color:white;
+ text-align: center;
+ margin-top: -11.7vh;
+}
+.s6-col1{
+	min-height: 95vh;
+	background-color: #192F3A;
+	width:25vw;
+	border-radius: 15px;
+	float:left;
+	margin-left: 9.5vw;
+	margin-top: 4vh;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+   font-family: 'Roboto';
+ font-size: 1em;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color:white;
+ text-align: left;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.s6-col2{
+	min-height: 95vh;
+	background-color: #192F3A;
+	width:25vw;
+	border-radius: 15px;
+	float:left;
+	margin-left: 2vw;
+	margin-top: 4vh;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+     font-family: 'Roboto';
+ font-size: 1em;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color:white;
+ text-align: left;
+ padding-left: 20px;
+ padding-right: 20px;
+	
+}
+.s6-col3{
+	min-height: 95vh;
+	background-color: #192F3A;
+	width:25vw;
+	border-radius: 15px;
+	float: left;
+	margin-left: 2vw;
+	margin-top: 4vh;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+     font-family: 'Roboto';
+ font-size: 1em;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color:white;
+ text-align: left;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.s6-col1:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.s6-col2:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.s6-col3:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.s-q5{
+ font-family: 'Roboto';
+ font-size: 1.1em;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color:black;
+ text-align: center;
+ margin-top: 7vh;
+ width: 100vw;
+}
+.s-q5sub{
+ font-family: 'Roboto';
+ font-size: 1.1em;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color:black;
+ text-align: center;
+ width: 100vw;
+}
+.s-q5b{
+ font-family: 'Roboto';
+ font-size: 1.1em;
+ font-weight: 500;
+ letter-spacing: 1px;
+ color:black;
+ text-align: center;
+ width: 100vw;
+}
+.brd0{
+   display: block;
+   margin: 15px 0;
+   line-height: 0px;
+   content: " ";
+}
+.brd1{
+   display: block;
+   margin: 0px 0;
+   line-height: 0px;
+   content: " ";
+}
+
+.hrd {
+    border: 0;
+    border-bottom: 3px dashed white;
+    background: transparent;
+}
+.swot{
+	height:80vh;
+}
+.swotbox{
+	height:30vh;
+	border: solid 2px white;
+	margin-top: 20px;
+	border-radius: 5px;
+	 font-family: 'Roboto';
+	 font-size: 1.3em;
+	 font-weight: 500;
+	 letter-spacing: 2px;
+	 color:white;
+}
+.cform{
+	height:57vh;
+	border: solid 2px white;
+	border-radius: 5px;
+	z-index:2!important;
+	width:50vw;
+	margin-left: 27vw;
+	position: relative;
+}
+.divider2{
+	border: 1px white solid;
+	height:53vh;
+	margin-top: 2vh;
+	z-index:10;
+}
+.divsh{
+	height:53vh;
+	margin-top: 1vw;
+	background-color: transparent;
+}
+.divsh1{
+	height:53vh;
+	margin-top: 1vw;
+	background-color: white;
+}
+.cf-font{
+font-family: 'Roboto';
+ font-size: 1.2em;
+ font-weight: 500;
+ letter-spacing: 1px;
+ color:#989692;
+ text-align: center;
+ margin-left: 2vw;
+ 
+}
+.c-text{
+ font-family: 'Roboto';
+ font-size: 1.2em;
+ font-weight: 500;
+ letter-spacing: 1px;
+ color:white;
+}
+.col-text1{
+font-family: 'Roboto';
+ font-size: 1.1em;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color:white;
+ line-height: 1.35em;
+}
+.swot-t{
+font-family: 'Roboto';
+ font-size: 1em;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color:white;
+ text-align: left;
+}
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.6; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.6; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.6; }
+    100% { opacity: 1.0; }
+}
+/*CD TOP*/
+.cd-top {
+  z-index:11000;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: transparent url(/assets/cd-top-arrow.svg) no-repeat center;
+  visibility: hidden;
+  opacity: 0;
+  background-size: cover;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .7;
+}
+.no-touch .cd-top:hover {
+
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    bottom: 25px;
+  }
+}
+.footer{
+	background-color: #192F3A;
+	height: 13vh;
+	
+}
+.footer-t{
+float:left;
+ font-family: 'Roboto';
+ font-size: 1.1em;
+ font-weight: 300;
+ letter-spacing: 2px;
+ color:white;
+ margin-left: 2vw;
+ margin-top: 4.65vh;
+}
+.error {
+  background-color: transparent!important;
+}
