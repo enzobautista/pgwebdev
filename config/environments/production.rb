@@ -22,8 +22,18 @@ Rails.application.configure do
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
-  
-config.serve_static_assets = true
+
+config.assets.compile = false
+
+config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+
+if ENV["RAILS_LOG_TO_STDOUT"].present?
+    logger           = ActiveSupport::Logger.new(STDOUT)
+    logger.formatter = config.log_formatter
+    config.logger = ActiveSupport::TaggedLogging.new(logger)
+end
+
+ 
 config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 
   # Compress JavaScripts and CSS.
@@ -31,7 +41,7 @@ config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.serve_static_files = true
+ 
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
   # yet still be able to expire them through the digest params.
